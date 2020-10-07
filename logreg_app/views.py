@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from django.contrib import messages
 from .models import *
 # Create your views here.
+#lets see if this works
 
 def index(request):
     return render(request, 'index.html')
